@@ -7,28 +7,35 @@
 # --show-control-chars: help showing Korean or accented characters
 alias ls='ls -F --color=auto --show-control-chars'
 alias ll='ls -l'
+
+# Laravel
 alias pa='php artisan'
 alias seed='php artisan db:seed'
 alias watch='npm run watch'
-alias pull='git pull origin'
 alias prod='npm run prod'
-alias uncommit='git reset --hard HEAD'
 alias fresh="php artisan migrate:fresh --seed"
 alias tinker="php artisan tinker"
 alias su="php artisan system:update"
 alias clr="php artisan optimize:clear"
 
+# Git
+alias pull='git pull origin'
+alias amend="git commit --amend"
+alias wip="git add . && git commit -m 'wip'"
+alias uncommit='git reset --hard HEAD'
+
+# Fun
 alias fun="echo '¯\_(ツ)_/¯' | pbcopy"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
+alias cu='composer update'
+alias ca='composer dump-autoload'
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 
-alias cu='composer update'
-alias ca='composer dump-autoload'
-alias wip="git add . && git commit -m 'wip'"
+# Extra
 alias tab='/git-bash.exe & > /dev/null 2&>1'
 
 case "$TERM" in
