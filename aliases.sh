@@ -37,6 +37,7 @@ alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 
 # Extra
 alias tab='/git-bash.exe & > /dev/null 2&>1'
+alias ip="curl ifconfig.me/ip ; echo"
 
 case "$TERM" in
 xterm*)
