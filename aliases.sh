@@ -15,6 +15,8 @@ alias prod='npm run prod'
 alias uncommit='git reset --hard HEAD'
 alias fresh="php artisan migrate:fresh --seed"
 alias tinker="php artisan tinker"
+alias su="php artisan system:update"
+alias clr="php artisan optimize:clear"
 
 alias fun="echo '¯\_(ツ)_/¯' | pbcopy"
 
