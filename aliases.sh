@@ -23,6 +23,8 @@ alias pull='git pull origin'
 alias amend="git commit --amend"
 alias wip="git add . && git commit -m 'wip'"
 alias uncommit='git reset --hard HEAD'
+alias ps='git push origin sarfaraz'
+alias gac='git add . && git commit -m'
 
 # Fun
 alias fun="echo '¯\_(ツ)_/¯' | pbcopy"
