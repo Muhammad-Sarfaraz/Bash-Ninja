@@ -41,6 +41,8 @@ alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 alias tab='/git-bash.exe & > /dev/null 2&>1'
 alias ip="curl ifconfig.me/ip ; echo"
 alias today='date +"%A, %B %-d, %Y, Week: %V"'
+alias run='php -S localhost:7070'
+
 
 case "$TERM" in
 xterm*)
