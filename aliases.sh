@@ -25,6 +25,9 @@ alias wip="git add . && git commit -m 'wip'"
 alias uncommit='git reset --hard HEAD'
 alias ps='git push origin sarfaraz'
 alias gac='git add . && git commit -m'
+alias gc= 'git clone'
+alias pd='git push origin dev'
+alias pl='git pull origin'
 
 # Fun
 alias fun="echo '¯\_(ツ)_/¯' | pbcopy"
