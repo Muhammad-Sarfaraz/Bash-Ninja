@@ -28,6 +28,8 @@ alias gac='git add . && git commit -m'
 alias gc= 'git clone'
 alias pd='git push origin dev'
 alias pl='git pull origin'
+alias cod='git checkout dev'
+alias cos='git checkout sarfaraz'
 
 # Fun
 alias fun="echo '¯\_(ツ)_/¯' | pbcopy"
